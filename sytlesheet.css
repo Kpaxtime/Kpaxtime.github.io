@@ -1,9 +1,28 @@
 #header {
-	z-index: 1;
-	position: fixed;
-	width: 97.5%;
-	margin-top: -20px;
-	height: 60px;
-	background-color: #668284;
-	margin-bottom: 10px;
+	position: relative;
+	margin-top: -10px;
+	left:50%;
+	margin-left:-254px;
+	background-color: #ADD6FF;
+}
+
+ul{
+	list-style-type: none;
+	position: relative;
+	margin: -10px;
+}
+
+li {
+	display: inline;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	border-radius: 5px 5px;
+	background-color: #cc0323;
+	padding: 5px;
+}
+
+img.resize {
+max-width:50%;
+max-height:50%;
 }

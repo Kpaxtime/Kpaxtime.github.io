@@ -9,17 +9,32 @@
 			border-radius: 6px;
 			margin-left: auto;
 			margin-right: auto;
+			margin-bottom: 2%;
 			width: 650px;
 			height: 840px;
 			border: 5px solid;
 			border-color: black;
 			}
 			
+.top_navbar {
+				height: 50px;
+				width: 100%;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				background-color: black;
+				}
+body { 
+  background: url(uofinew.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+		
 @media screen and (max-width: 640px) {
 	.holder1 { 
 				margin: 0 auto;
-				}
-#cv_holder{	width: 100%;
 				}		
 }
 
@@ -29,24 +44,20 @@
 			border: 3px solid;
 			border-radius: 5px;
 			border-color: black;
-			background-color: white;
+			background-color: red;
 			}
 			
+.navbar .nav li a {
+				line-height: 30px;
+				}
 
-.space {
-			height: 10px;
-			}
-			
+.right { position: relative;
+		left: -10px;
+}
 
-
-.left {
-			float: left;
-			width: 35%;
-			}
-
-.right {		
-			width: auto;
-			overflow: hidden;
+.right1 {		
+			float: right;
+			padding-right: 10px;
 			}
 .topnav {
 			padding-right: 0px;

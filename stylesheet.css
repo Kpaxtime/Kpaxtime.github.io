@@ -1,6 +1,17 @@
-#photo {	
-			
+.holder1{ 
+			height: auto;
+			overflow: hidden;
+			margin-left: 10%;
+			margin-right: 10%;
 			}
+
+
+@media screen and (max-width: 640px) {
+	.holder1 { 
+				margin: 0 auto;
+				}
+}
+
 
 #text {		
 			padding: 3px;
@@ -24,3 +35,21 @@
 			height: 10px;
 			}
 			
+
+
+.left {
+			float: left;
+			width: 35%;
+			}
+
+.right {		
+			width: auto;
+			overflow: hidden;
+			}
+.topnav {
+			padding-right: 0px;
+			}
+.image1 {	margin-left: 15%;
+			margin-right: auto;
+			padding: 5px;
+			}

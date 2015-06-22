@@ -53,7 +53,7 @@ body {
 }
 
 
-#text {		
+.text {		
 			padding: 3px;
 			border: 3px solid;
 			border-radius: 5px;
@@ -66,10 +66,9 @@ body {
 				line-height: 30px;
 				}
 
-.left {
-			float: left;
-			width: 35%;
-			}
+.profile-photo {
+					background-color: red;
+}
 
 .right {		margin-left: 36%;
 			width: auto;

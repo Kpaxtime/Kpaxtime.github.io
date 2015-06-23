@@ -45,11 +45,11 @@ body {
   background-size: cover;
 }
 
-		
-@media screen and (max-width: 640px) {
-	.holder1 { 
-				margin: 0 auto;
-				}		
+
+@media screen and (min-width: 1920px) {
+	.container {	width: 1600px;
+					margin: 0 auto;
+	}
 }
 
 
@@ -94,3 +94,9 @@ body {
 			font-weight: 500;		
 			text-underline-width: thin;			
 			}
+.about-me {
+			background-color: gray;
+}
+.col-sm-6 {
+			padding: 0;
+}

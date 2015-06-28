@@ -156,10 +156,6 @@ a h3{
 			width: 90%;
 			display: flex;
 			margin: 0 auto;
-			display: -webkit-flex;
-    		-webkit-flex-wrap: wrap; 
-    		display: flex;   
-    		flex-wrap: wrap;
 }
 
 .col-1 {

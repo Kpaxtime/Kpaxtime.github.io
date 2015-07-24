@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+<html>
 	<head>
-		<title>Grid layout website</title>
+		<title>Tim Wyrick Portfolio Page</title>
 		<meta charset="utf-8"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link type="text/css" rel="stylesheet" href="style.css" />
-
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="Styles/style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div id="container">
-			<h1>Sandbox Etch-A-Sketch</h1>
-			<p>Hover over a grid section to change the color</p>
-			<p>In case of missized grids, press clear and/or reenter customize data</P>
-			<p>For a list of accepted color names, look <a href="http://www.w3schools.com/cssref/css_colornames.asp">here</a>.</p>
+		<div class="home">
+			<div class ="header">
 			<ul>
-			
-			<li><button type="button" id="grid">Show Grid</button></li>
-			<li><button type="button" id="clear">Clear</button></li>
-			<li><button type="button" id="choose-color">Choose Color</button></li>
-			<li><button type="button" id="customize">Customize Grid</button></li>
-			<li><button type="button" id="gradient">Gradient</button></li>
--			<li><button type="button" id="trail">Trail</button></li>
--			<li><button type="button" id="reverse-trail">Reverse Trail</button></li>
--			<li><button type="button" id="random-color">Random Color</button></li>
--			<li><button type="button" id="rainbow">Rainbow</button></li>
-			</ul>
-
+				<li class="icon col-1">Home</li>
+				<li class="icon col-1">Projects</li>
+				<li class="icon col-1">About Me</li>
+			</ul>		
+			</div>
+			<h1 id="Title_Name">Tim Wyrick</h1>
+			<h2 id="Title_Words">Student and Front-End Developer</h2>
+			<div class="row">
+				<div id="button_container">
+					<a href="contact.html"  class="Sub_Button"><h3>Contact</h3></a>
+					<a href="resume.html" class="Sub_Button"><h3>Resume</h3></a>
+				</div>	
+			</div>
 		</div>	
-			<div id="grid-holder"></div>	
-		
+		<div class="projects">
+			<h2 style="text-align: center">Latest Projects</h2>
+			<div class="row">
+				<div class="col-4"><img class="project_photo img-responsive" src="Assets/yolo.jpg"></div>
+				<div class="col-4"><img class="project_photo img-responsive" src="Assets/yolo.jpg"></div>
+				<div class="col-4"><img class="project_photo img-responsive" src="Assets/yolo.jpg"></div>
+			</div>
+			<div class="row">
+				<div class="col-4"><p class="text"><a href="Sketch-Pad\index.html">Here</a></p></div>
+				<div class="col-4"><p class="text">This is my first project that I've been working really hard on. More information about the project can be found by clicking on the photo. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis.Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis.Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis.</p></div>
+				<div class="col-4"><p class="text">This is my first project that I've been working really hard on. More information about the project can be found by clicking on the photo. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis.Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis.Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis.</p></div>
+			</div>
+		</div>	
+		<div class="dividing_bar">
+			<hr>
+		</div>
+		<div class="aboutme">
+			<h2 style="text-align: center">Brief Background</h2>
+			<div class="row">
+				<div class="col-4">
+					<img src="Assets/yolo.jpg" class="profile_photo img-responsive">
+				</div>
+				<div class="col-8">
+					<p class="text">Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis.Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis.Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis.Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis.Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. Hello, my name is Tim Wyrick and I am a current Student at the University of Illionis. </p>
+				</div>
+			</div>
+		</div>
 		<script src="jquery-2.1.4.min.js"></script>
-		<script src="main.js"></script>
-	</body>
+		<script src="Script/main.js"></script>							
+	</body>	
 	<footer>
-	</footer>
-</html>	
+		<div id="footer_container">
+			<h3 class="footer_icon"><a href="https://github.com/Kpaxtime">Github</a></h3>
+			<h3 class="footer_icon"><a href="https://www.linkedin.com/profile/view?id=202552701&trk=hp-identity-name">LinkedIn</a></h3>
+		</div>
+	</footer>		
+</html>

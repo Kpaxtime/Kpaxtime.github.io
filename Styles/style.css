@@ -1,15 +1,12 @@
 * {
-			-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			-ms-box-sizing: border-box;
-			box-sizing: border-box;
-			font-family: 'Droid Serif', serif;
+			font-family: 'Hind', sans-serif;
 }
 
 
 body {
 			
 		background-image: url("../Assets/uofinew.jpg");
+		margin: 0;
 
 		-moz-background-size: cover;
 		-webkit-background-size: cover;
@@ -22,21 +19,29 @@ body {
 
 
 #page_header > nav {
+	height: 80px;
 	width: 100%;
 	clear: both;
-	padding: 20px 0 0 0;
+	padding: 0;
+	border-radius: 10px;
 }
 #page_header > nav > ul {
+	overflow: auto;
 	float: right;
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 40px 0 0 0;
 }
 
 #page_header > nav > ul > li {
 	margin: 0 20px 0 0;
 	padding: 0;
 	display: inline;
+	font-size: 16px;
+}
+
+#page_header > nav > ul > li >a:hover {
+	color: #bfbfbf;
 }
 
 #main_nav {
@@ -51,29 +56,71 @@ body {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	position: relative;
-	top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
 
 }
 
 #main_nav > ul > li {
 	width: auto;
-	padding:  0 6.67% 0 6.66%;
+	padding:  15px 6.67% 15px 6.66%;
 	display: inline-block;
 	font-size: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	border: solid white;
 	border-width: 2px;
-	border-radius: 10px;
 }
+#main_nav > ul > li:hover {
+	background-color: white;
+
+	-webkit-transition: background 200ms linear;
+        -moz-transition: background 200ms linear;
+        -ms-transition: background 200ms linear;
+        -o-transition: background 200ms linear;
+        transition: background 200ms linear;
+}
+
+#main_nav > ul > li:hover a {
+	color: black;
+
+	-webkit-transition: background 200ms linear;
+        -moz-transition: background 200ms linear;
+        -ms-transition: background 200ms linear;
+        -o-transition: background 200ms linear;
+        transition: background 200ms linear;
+}
+
+
+#name {
+	width: 100%;
+	clear: both;
+	height: 150px;
+	margin: 15% 0 0 0;
+	padding: 0;
+}
+
 p {
-	font-size: 70px;
+	font-size: 50px;
+	font-weight: 300;
+	margin: 0 0 20px 0;
+	color: white;
+	text-align: center;
 
 }
 
 a {
+	font-weight: 500;
 	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	margin: 0;
+	font-size: 100px;
+	font-weight: 500;
+	text-align: center;
 	color: white;
 }

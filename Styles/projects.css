@@ -1,5 +1,5 @@
 html, body {
-	height: 100%;
+	min-height: 100%;
 	width: 100%;
 }
 
@@ -13,10 +13,6 @@ h1 {
 	margin: 0 0 0 0;
 	text-align: center;
 	font-size: 100px;
-}
-
-h2 {
-	text-align: center;
 }
 
 #main_content {
@@ -47,15 +43,21 @@ h2 {
 	float: right;
 }
 
-p {
-	font-size: 20px;
+h2 {
+	text-align: center;
 }
 
-.description > p {
+img {
+	margin: 0 auto;
+	max-width: 100%
+}
+
+p {
+	font-size: 20px;
 	color: black;
 	text-align: left;
 }
 
-.description > p > a {
+.project_hyperlink {
 	color: #6699ff;
 }
